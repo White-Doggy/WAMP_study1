@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+        <title>Insert People</title>
+    </head>
+<body>
+    <center>
+        <h3>사용자 정보를 입력하세요.</h3>
+        <form name="PHP" method=post action="insertuser.php">
+        <!-- method post는 뒤의 php로 form 값을 post 형식으로 전달 -->
+
+        NUM : <input type=text name="num"><br>
+        ID : <input type=text name="id"><br>
+        PASSWORD : <input type=text name="pass"><br>
+        NAME : <input type=text name="name"><br><br>
+        <!-- 여기서 name 속성 값을 통해 php로 전달 됨 -->
+
+        <input type=submit value="저장">
+        <input type=reset value="취소">
+        </form>
+    </center>        
+</body>
+</html>
